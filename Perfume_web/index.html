@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTG Perfume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="hero-wrapper">
+
+    <div class="page-bg"> </div>
+
+    <!-- HEADER -->
+    <header class="gtg-header">
+      <div class="gtg-container header-inner">
+        <div class="gtg-logo">GTG</div>
+
+        <nav class="gtg-nav">
+          <ul class="gtg-menu">
+            <li class="gtg-menu-item active">Home</li>
+            <li class="gtg-menu-item">Shop</li>
+            <li class="gtg-menu-item">Fragrances</li>
+            <li class="gtg-menu-item">About Us</li>
+            <li class="gtg-menu-item">Blog</li>
+            <li class="gtg-menu-item">Contact</li>
+          </ul>
+
+          <div class="gtg-right">
+            <button class="gtg-search-btn" aria-label="Search">
+              <span class="gtg-search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+
+            </button>
+
+            <a href="#" class="gtg-cta-btn">Shop Now</a>
+          </div>
+
+          <!-- Hamburger for tablet/mobile -->
+          <button class="gtg-burger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero">
+        <div class="gtg-container hero-inner">
+          <!-- Left card -->
+          <div class="hero-card">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              Awarded the best perfume in the world
+            </div>
+
+            <h1 class="hero-title">Live your best life.</h1>
+
+            <div class="hero-metrics">
+              <div class="metric">
+                <span class="metric-number">10x</span>
+                <span class="metric-label">power</span>
+              </div>
+              <div class="metric">
+                <span class="metric-number">9</span>
+                <span class="metric-label">ingredients</span>
+              </div>
+              <div class="metric">
+                <span class="metric-number">20K+</span>
+                <span class="metric-label">happy customers</span>
+              </div>
+            </div>
+
+            <a href="#" class="hero-cta">Shop Now</a>
+          </div>
+
+
+        </div>
+  </div>
+  </section>
+
+
+  <!-- *********  GTG Perfumes section   ********* -->
+
+  <section class="gtg-product">
+    <div class="gtg-container gtg-product-grid">
+      <!-- LEFT: Gallery -->
+      <div class="gtg-gallery">
+        <!-- main bottle image -->
+        <div class="gtg-main-image">
+          <button class="gtg-arrow gtg-arrow-left" aria-label="Previous image">
+            ‹
+          </button>
+
+          <img id="gtg-main-img" src="assets/images/HeroBg.jpg" alt="GTG perfume main" />
+
+          <button class="gtg-arrow gtg-arrow-right" aria-label="Next image">
+            ›
+          </button>
+        </div>
+
+        <!-- dots under big image -->
+        <div class="gtg-dots">
+          <button class="gtg-dot active" data-index="0"></button>
+          <button class="gtg-dot" data-index="1"></button>
+          <button class="gtg-dot" data-index="2"></button>
+          <button class="gtg-dot" data-index="3"></button>
+        </div>
+
+        <!-- 8 thumbnails, 2 rows of 4 -->
+        <div class="gtg-thumbs">
+          <!-- use your real exported images -->
+          <img src="assets/images/img1.jpg" data-index="0" alt="" class="active" />
+          <img src="assets/images/img2.jpg" data-index="1" alt="" />
+          <img src="assets/images/img3.jpg" data-index="2" alt="" />
+          <img src="assets/images/img4.jpg" data-index="3" alt="" />
+          <img src="assets/images/img1.jpg" data-index="4" alt="" />
+          <img src="assets/images/img2.jpg" data-index="5" alt="" />
+          <img src="assets/images/img3.jpg" data-index="6" alt="" />
+          <img src="assets/images/img4.jpg" data-index="7" alt="" />
+        </div>
+      </div>
+
+      <!-- RIGHT: GTG Perfumes card -->
+      <div class="gtg-product-card">
+        <header class="gtg-product-header">
+          <h2 class="gtg-product-title">GTG Perfumes</h2>
+
+          <div class="gtg-rating-row">
+            <!-- stars + rating; you can replace with icons later -->
+            <span class="gtg-stars">★★★★★</span>
+            <span class="gtg-rating-text">4.7 (999+ reviews)</span>
+          </div>
+
+          <p class="gtg-product-desc">
+            Experience the timeless allure backed by modern artistry, captured in
+            every bottle of our fragrance. Crafted for those who seek to elevate
+            their essence with purpose and sophistication.
+          </p>
+        </header>
+
+        <!-- Most popular big card -->
+        <div class="gtg-most-popular">
+          <div class="gtg-most-popular-bar">
+            <span>Most Popular</span>
+          </div>
+
+          <div class="gtg-most-popular-body">
+            <!-- top row: Single Subscription + price -->
+            <div class="gtg-row-between gtg-single-sub-row">
+              <div class="gtg-radio-inline">
+                <input type="radio" name="purchase" id="purchase-single" value="single-subscription" checked />
+                <label for="purchase-single">Single Subscription</label>
+              </div>
+
+              <div class="gtg-price-block">
+                <span class="gtg-price-current">$99.99</span>
+                <span class="gtg-price-old">$146</span>
+              </div>
+            </div>
+
+            <!-- Choose a fragrance -->
+            <section class="gtg-choose-fragrance">
+              <h3 class="gtg-section-label">Choose a Fragrance</h3>
+
+              <div class="gtg-fragrance-options">
+                <!-- Original -->
+                <label class="gtg-fragrance-card">
+                  <input type="radio" name="fragrance" value="original" checked />
+                  <span class="gtg-fragrance-image">
+                    <img src="assets/images/original-mini.jpg" alt="Original" />
+                  </span>
+                  <span class="gtg-fragrance-name">
+                    Original
+                    <span class="gtg-badge-small">Best Seller</span>
+                  </span>
+                </label>
+
+                <!-- Lily -->
+                <label class="gtg-fragrance-card">
+                  <input type="radio" name="fragrance" value="lily" />
+                  <span class="gtg-fragrance-image">
+                    <img src="assets/images/lily.jpg" alt="Lily" />
+                  </span>
+                  <span class="gtg-fragrance-name">Lily</span>
+                </label>
+
+                <!-- Rose -->
+                <label class="gtg-fragrance-card">
+                  <input type="radio" name="fragrance" value="rose" />
+                  <span class="gtg-fragrance-image">
+                    <img src="assets/images/rose.jpg" alt="Rose" />
+                  </span>
+                  <span class="gtg-fragrance-name">Rose</span>
+                </label>
+              </div>
+            </section>
+
+            <!-- What's included -->
+            <section class="gtg-whats-included">
+              <h3 class="gtg-section-label">What's Included</h3>
+
+              <div class="gtg-included-grid">
+                <!-- Every 30 days -->
+                <div class="gtg-included-card gtg-included-monthly">
+                  <h4 class="gtg-included-title">Every 30 Days</h4>
+                  <div class="gtg-included-image">
+                    <img src="assets/images/original-mini.jpg" alt="Monthly" />
+                  </div>
+                </div>
+
+                <!-- One time (Free) -->
+                <div class="gtg-included-card gtg-included-onetime">
+                  <h4 class="gtg-included-title">One Time (Free)</h4>
+
+                  <div class="gtg-onetime-row">
+                    <div class="gtg-included-image">
+                      <img src="assets/images/original-mini.jpg" alt="One time bottle 1" />
+                    </div>
+
+                    <div class="gtg-included-image">
+                      <img src="assets/images/lily.jpg" alt="One time bottle 2" />
+                    </div>
+
+                    <div class="gtg-included-image">
+                      <img src="assets/images/rose.jpg" alt="One time bottle 3" />
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- bullet list under cards -->
+              <ul class="gtg-benefits-list">
+                <li><strong>1 Bottle</strong> shipped monthly</li>
+                <li><strong>Free sampler</strong> for Original, Lily and Rose</li>
+                <li><strong>50% OFF</strong> shipping</li>
+                <li>Pause or cancel anytime after 3 months minimum</li>
+                <li>28 day money back guarantee*</li>
+              </ul>
+            </section>
+
+            <!-- Double subscription collapsed bar -->
+            <button class="gtg-double-bar" type="button">
+              <span class="gtg-radio-inline">
+                <input type="radio" name="purchase" id="purchase-double" value="double-subscription" />
+                <label for="purchase-double">Double Subscription</label>
+              </span>
+              <span class="gtg-price-block">
+                <span class="gtg-price-current">$169.99</span>
+                <span class="gtg-price-old">$146</span>
+              </span>
+            </button>
+
+            <!-- Expandable: content for Single Subscription -->
+            <div class="gtg-expand gtg-expand-single active">
+              <!-- you can mirror the Figma design here -->
+              <p>Single Subscription details go here.</p>
+            </div>
+
+            <!-- Expandable: content for Double Subscription -->
+            <div class="gtg-expand gtg-expand-double">
+              <p>Double Subscription details go here.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Add to Cart -->
+        <a href="#" id="gtg-add-to-cart" class="gtg-add-to-cart">
+          Add to Cart
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- OUR COLLECTION SECTION -->
+  <section class="gtg-collection">
+    <div class="gtg-container gtg-collection-inner">
+      <!-- LEFT: accordion box -->
+      <div class="gtg-collection-box">
+        <h2 class="gtg-collection-title">Our Collection</h2>
+
+        <div class="gtg-collection-accordion">
+          <!-- Row 1 – open by default -->
+          <button class="gtg-acc-item active" type="button">
+            <span class="gtg-acc-label">Signature Scents</span>
+            <span class="gtg-acc-icon">−</span>
+          </button>
+          <div class="gtg-acc-panel open">
+            <p class="gtg-acc-text">
+              Discover our curated line of signature perfumes, designed to
+              become your daily companion.
+            </p>
+          </div>
+
+          <!-- Row 2 -->
+          <button class="gtg-acc-item" type="button">
+            <span class="gtg-acc-label">Signature Scents</span>
+            <span class="gtg-acc-icon">+</span>
+          </button>
+          <div class="gtg-acc-panel">
+            <p class="gtg-acc-text">
+              Discover our curated line of signature perfumes, designed to
+              become your daily companion.
+            </p>
+          </div>
+
+          <!-- Row 3 -->
+          <button class="gtg-acc-item" type="button">
+            <span class="gtg-acc-label">Signature Scents</span>
+            <span class="gtg-acc-icon">+</span>
+          </button>
+          <div class="gtg-acc-panel">
+            <p class="gtg-acc-text">
+              Discover our curated line of signature perfumes, designed to
+              become your daily companion.
+            </p>
+          </div>
+
+          <!-- Row 4 -->
+          <button class="gtg-acc-item" type="button">
+            <span class="gtg-acc-label">Signature Scents</span>
+            <span class="gtg-acc-icon">+</span>
+          </button>
+          <div class="gtg-acc-panel">
+            <p class="gtg-acc-text">
+              Discover our curated line of signature perfumes, designed to
+              become your daily companion.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: image -->
+      <div class="gtg-collection-image">
+        <img src="assets/images/our-collection.jpg" alt="Perfume in hand" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PERCENTAGE SECTION -->
+  <section class="gtg-stats">
+    <div class="gtg-stats-container">
+
+      <div class="gtg-stat">
+        <div class="gtg-stat-number" data-target="84">0%</div>
+        <p class="gtg-stat-text">
+          Lorem ipsum dolor sit amet,<br />
+          consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <div class="gtg-stat">
+        <div class="gtg-stat-number" data-target="78">0%</div>
+        <p class="gtg-stat-text">
+          Lorem ipsum dolor sit amet,<br />
+          consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <div class="gtg-stat">
+        <div class="gtg-stat-number" data-target="89">0%</div>
+        <p class="gtg-stat-text">
+          Lorem ipsum dolor sit amet,<br />
+          consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <div class="gtg-stat">
+        <div class="gtg-stat-number" data-target="90">0%</div>
+        <p class="gtg-stat-text">
+          Lorem ipsum dolor sit amet,<br />
+          consectetur adipiscing elit.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!------------ gtg table section------------  -->
+
+  <section class="gtg-compare">
+
+    <!-- Top dash -->
+    <div class="gtg-dash">---</div>
+
+    <!-- Heading -->
+    <h2 class="gtg-title">Why GTG is the #1 Choice</h2>
+
+    <!-- Table -->
+    <div class="gtg-table-wrapper">
+      <table class="gtg-table">
+
+        <!-- Table Head -->
+        <thead>
+          <tr>
+            <th class="gtg-col-quality">Qualities</th>
+
+            <th class="gtg-col-brand gtg-highlight">
+              <div class="gtg-brand">
+                <img src="assets/images/table img.jpg" alt="GTG" />
+                <span>GTG</span>
+              </div>
+            </th>
+
+            <th class="gtg-col-brand">
+              <div class="gtg-brand">
+                <img src="assets/images/img1.jpg" alt="Brand A" />
+                <span class="Brand-other">Azzaro</span>
+              </div>
+            </th>
+
+            <th class="gtg-col-brand">
+              <div class="gtg-brand">
+                <img src="assets/images/img3.jpg" alt="Brand B" />
+                <span class="Brand-other">Bella</span>
+              </div>
+            </th>
+
+            <th class="gtg-col-brand">
+              <div class="gtg-brand">
+                <img src="assets/images/img4.jpg" alt="Brand C" />
+                <span class="Brand-other">Dailies</span>
+              </div>
+            </th>
+          </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+          <tr>
+            <th>Potency Concentration</th>
+            <td class="gtg-highlight">10x</td>
+            <td>1x</td>
+            <td>1x</td>
+            <td>10x</td>
+          </tr>
+
+          <tr>
+            <th>Longevity</th>
+            <td class="gtg-highlight"><span class="gtg-tick">✓</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-light-tick">✓</span></td>
+          </tr>
+
+          <tr>
+            <th>Sillage</th>
+            <td class="gtg-highlight"><span class="gtg-tick">✓</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+          </tr>
+
+          <tr>
+            <th>Bottle Design Score</th>
+            <td class="gtg-highlight">9</td>
+            <td>5</td>
+            <td>6</td>
+            <td>2</td>
+          </tr>
+
+          <tr>
+            <th>Blend & Harmony</th>
+            <td class="gtg-highlight"><span class="gtg-tick">✓</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+          </tr>
+
+          <tr>
+            <th>Skin Compatibility</th>
+            <td class="gtg-highlight"><span class="gtg-tick">✓</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+          </tr>
+
+          <tr>
+            <th>Scent Profile</th>
+            <td class="gtg-highlight"><span class="gtg-tick">✓</span></td>
+            <td><span class="gtg-light-tick">✓</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+          </tr>
+
+          <tr>
+            <th>Price vs Quality</th>
+            <td class="gtg-highlight"><span class="gtg-tick">✓</span></td>
+            <td><span class="gtg-light-tick">✓</span></td>
+            <td><span class="gtg-cross">✕</span></td>
+            <td><span class="gtg-light-tick">✓</span></td>
+          </tr>
+
+
+        </tbody>
+        <caption class="gtg-table-caption">
+          <a href="#" class="gtg-risk-free-btn">
+            Try It Risk-Free
+          </a>
+        </caption>
+
+
+
+      </table>
+    </div>
+
+  </section>
+
+  </main>
+
+  <!--------------- footer section  --------------->
+   <footer class="gtg-footer">
+  <div class="footer-container">
+
+    <!-- Full width logo -->
+    <div class="footer-logo">
+      GTG
+    </div>
+
+    <!-- Column 1 -->
+    <nav class="footer-col footer-links">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Fragrances</a>
+    </nav>
+
+    <!-- Column 2 -->
+    <nav class="footer-col footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- Column 3 -->
+    <div class="footer-col footer-social">
+      <a href="#"><img src="assets/images/Facebook.jpg" alt="">Facebook</a>
+      <a href="#"><img src="assets/images/Instagram.jpg" alt="">Instagram</a>
+      <a href="#"><img src="assets/images/X.jpg">X</a>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-col footer-newsletter">
+      <p class="newsletter-title">
+        Join our newsletter to stay up to date on features and releases.
+      </p>
+
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+
+      <p class="newsletter-note">
+        By subscribing you agree to our Privacy Policy and provide consent to receive updates from our company.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+  
+  
+
+  
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
